@@ -1,0 +1,12 @@
+@import "_customised-bootstrap";
+@import "components/all";
+
+.app {
+	max-width: 700px;
+	margin: 100px auto 0px auto;
+	padding: 0px 5px;
+	&__title {
+		text-align: center;
+		margin-bottom: 40px;
+	}
+}
